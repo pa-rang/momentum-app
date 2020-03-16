@@ -1,4 +1,7 @@
+@import "fonts/stylesheet.css";
+
 body {
+  font-family: 'Muli', 'Spoqa', Arial, Helvetica, sans-serif;
   background-color: #363636;
 }
 

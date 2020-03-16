@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800&display=swap');
+
+@font-face {
+  font-family: "Spoqa Bold";
+  src: url('Spoqa\ Han\ Sans\ Bold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Spoqa";
+  src: url('Spoqa\ Han\ Sans\ Regular.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Spoqa Light";
+  src: url('Spoqa\ Han\ Sans\ Light.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Spoqa Thin";
+  src: url('Spoqa\ Han\ Sans\ Thin.ttf') format('truetype');
+  font-weight: 200;
+}
+
+/* 
+Muli 
+font-weight: 300,400,700,800
+
+Spoqa
+font-weight: 200,400,600,800 
+*/

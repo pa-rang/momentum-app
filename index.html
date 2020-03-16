@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8" />
-        <title>momentum-app</title>
-        <link rel="stylesheet" href="index.css" />
-    </head>
-    <body>
-        <!-- Clock -->
-        <div class="js-clock">
-            <h1>00:00:00</h1>
-        </div>
-        <!-- User Name -->
-        <form class="js-form form">
-            <input type="text" placeholder="What is your name" />
-        </form>
-        <h3 class="js-greetings greetings"></h3>
-        <!-- To Do List -->
-        <form class="js-toDoForm">
-            <input type="text" placeholder="Write a to do" />
-        </form>
-        <ul class="js-toDoList"></ul>
-        <!-- Weather -->
-        <div class="js-weather"></div>
-        <!-- Script -->
-        <script src="clock.js"></script>
-        <script src="greeting.js"></script>
-        <script src="todo.js"></script>
-        <script src="background.js"></script>
-        <script src="weather.js"></script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>momentum-app</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Clock -->
+    <div class="js-clock">
+      <h1>00:00:00</h1>
+    </div>
+    <!-- User Name -->
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name" />
+    </form>
+    <h3 class="js-greetings greetings"></h3>
+    <!-- To Do List -->
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write a to do" />
+    </form>
+    <ul class="js-toDoList"></ul>
+    <!-- Weather -->
+    <div class="js-weather">
+      <div class="weather-main"></div>
+      <div class="weather-temp"></div>
+      <div class="weather-location"></div>
+    </div>
+    <!-- Script -->
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+  </body>
 </html>
