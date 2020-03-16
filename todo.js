@@ -5,6 +5,20 @@ const toDoList = document.querySelector(".js-toDoList");
 const TODOS_LS = "toDos"
 let toDos = [];
 
+// To make toDos hover transition smoothly
+//
+// function updateTransition() {
+//   const li = toDoList.querySelector(".toDos");
+//   if (li) {
+//     li.className = ".toDos-hover";
+//   } else {
+//     li = document.querySelector("toDos-hover");
+//     li.className = "toDos";
+//   }
+   
+//   return li;
+// }
+
 function deleteToDo(event){
   // delete todo in HTML
   const btn = event.target;
@@ -35,10 +49,12 @@ function paintToDo(text){
   // console.log("newId", newId);
   li.appendChild(span);
   li.appendChild(delBtn);
+  li.classList.add("toDos");
   li.id = newId;
   toDoList.appendChild(li);
   span.innerText = text;
   delBtn.innerText = "delete";
+  delBtn.classList.add("delete-btn");
   delBtn.addEventListener("click", deleteToDo);
   // text를 받아서 local storage의 toDos에 array형태로 저장
   const toDoObj = {
