@@ -9,7 +9,6 @@ function getImage(callbackFunc){
 
 function init() {
   getImage(function(image){
-    console.log(image);
     // add background container
     const container = document.createElement("div");
     body.appendChild(container);
