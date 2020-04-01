@@ -1,7 +1,7 @@
 # Momentum Chrome App
 
 **Description** : The Project cloning momentum chrome app using only JavaScript (VanillaJS) <br/>
-**Goal** : To be good at using JavaScript
+**Goal** : To practice using JavaScript
 <br/>
 <br/>
 
